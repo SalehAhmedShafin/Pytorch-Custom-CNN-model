@@ -34,37 +34,37 @@ There are 4 Conv2d layers and 4 Linear Layer and use MaxPool in the pooling laye
 
 # Model Summary: <br>
 
-----------------------------------------------------------------<br>
-        Layer (type)               Output Shape         Param # <br>
-================================================================<br>
-            Conv2d-1         [-1, 16, 224, 224]             448<br>
-              ReLU-2         [-1, 16, 224, 224]               0<br>
-         MaxPool2d-3         [-1, 16, 112, 112]               0<br>
-            Conv2d-4         [-1, 32, 112, 112]           4,640<br>
-              ReLU-5         [-1, 32, 112, 112]               0<br>
-         MaxPool2d-6           [-1, 32, 56, 56]               0<br>
-            Conv2d-7           [-1, 64, 56, 56]          18,496<br>
-              ReLU-8           [-1, 64, 56, 56]               0<br>
-         MaxPool2d-9           [-1, 64, 28, 28]               0<br>
-           Conv2d-10          [-1, 128, 28, 28]          73,856<br>
-             ReLU-11          [-1, 128, 28, 28]               0<br>
-        MaxPool2d-12          [-1, 128, 14, 14]               0<br>
-           Linear-13                  [-1, 512]      12,845,568<br>
-             ReLU-14                  [-1, 512]               0<br>
-          Dropout-15                  [-1, 512]               0<br>
-           Linear-16                  [-1, 256]         131,328<br>
-             ReLU-17                  [-1, 256]               0<br>
-          Dropout-18                  [-1, 256]               0<br>
-           Linear-19                  [-1, 128]          32,896<br>
-             ReLU-20                  [-1, 128]               0<br>
-          Dropout-21                  [-1, 128]               0<br>
-           Linear-22                    [-1, 3]             387<br>
-================================================================<br>
-Total params: 13,107,619<br>
-Trainable params: 13,107,619<br>
-Non-trainable params: 0<br>
-----------------------------------------------------------------<br>
-Input size (MB): 0.57<br>
-Forward/backward pass size (MB): 25.86<br>
-Params size (MB): 50.00<br>
-Estimated Total Size (MB): 76.44<br>
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param # 
+================================================================
+            Conv2d-1         [-1, 16, 224, 224]             448
+              ReLU-2         [-1, 16, 224, 224]               0
+         MaxPool2d-3         [-1, 16, 112, 112]               0
+            Conv2d-4         [-1, 32, 112, 112]           4,640
+              ReLU-5         [-1, 32, 112, 112]               0
+         MaxPool2d-6           [-1, 32, 56, 56]               0
+            Conv2d-7           [-1, 64, 56, 56]          18,496
+              ReLU-8           [-1, 64, 56, 56]               0
+         MaxPool2d-9           [-1, 64, 28, 28]               0
+           Conv2d-10          [-1, 128, 28, 28]          73,856
+             ReLU-11          [-1, 128, 28, 28]               0
+        MaxPool2d-12          [-1, 128, 14, 14]               0
+           Linear-13                  [-1, 512]      12,845,568
+             ReLU-14                  [-1, 512]               0
+          Dropout-15                  [-1, 512]               0
+           Linear-16                  [-1, 256]         131,328
+             ReLU-17                  [-1, 256]               0
+          Dropout-18                  [-1, 256]               0
+           Linear-19                  [-1, 128]          32,896
+             ReLU-20                  [-1, 128]               0
+          Dropout-21                  [-1, 128]               0
+           Linear-22                    [-1, 3]             387
+================================================================
+Total params: 13,107,619
+Trainable params: 13,107,619
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 25.86
+Params size (MB): 50.00
+Estimated Total Size (MB): 76.44
