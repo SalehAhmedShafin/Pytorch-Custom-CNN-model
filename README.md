@@ -34,7 +34,7 @@ There are 4 Conv2d layers and 4 Linear Layer and use MaxPool in the pooling laye
 
 # Model Summary: <br>
 
--| Layer (type) | Output Shape | Param #      |
+| Layer (type) | Output Shape | Param #      |
 |--------------|--------------|--------------|
 | Conv2d-1     | [-1, 16, 224, 224] | 448      |
 | ReLU-2       | [-1, 16, 224, 224] | 0        |
@@ -65,3 +65,4 @@ There are 4 Conv2d layers and 4 Linear Layer and use MaxPool in the pooling laye
 | **Forward/backward pass size (MB)** | | **25.86**|
 | **Params size (MB)** |            | **50.00**   |
 | **Estimated Total Size (MB)** |   | **76.44**   |
+
