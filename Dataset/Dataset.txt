@@ -1,0 +1,3 @@
+Download the dataset from kaggle-
+
+Dataset Link- https://www.kaggle.com/datasets/positivesas/balance-lungs-disease-dataset
