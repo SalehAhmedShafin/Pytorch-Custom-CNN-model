@@ -1,10 +1,10 @@
 # Pytorch-Custom-CNN-model
 
 Dataset- <br>
-It is a medical images directory structure branched into 3 subfolders (COVID, NORMAL, PNEUMONIA) which contains the Chest X-ray (CXR) Images.
-COVID: 1626 images
-NORMAL: 1802 images
-PNEUMONIA: 1800 images
+It is a medical images directory structure branched into 3 subfolders (COVID, NORMAL, PNEUMONIA) which contains the Chest X-ray (CXR) Images.<br>
+COVID: 1626 images<br>
+NORMAL: 1802 images<br>
+PNEUMONIA: 1800 images<br>
 Original Dataset Link- https://www.kaggle.com/datasets/sachinkumar413/covid-pneumonia-normal-chest-xray-images <br>
 In the Dataset folder contains customized dataset which is splitting the whole dataset into three parts- <br>
 
